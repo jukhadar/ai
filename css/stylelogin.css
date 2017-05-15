@@ -1,0 +1,384 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* The Art institute student portal*/
+body{
+	
+	background-image: url("vertical_cloth_@2X.png");
+	
+
+	
+}
+.container{
+	width: 1186px;
+	height: 100%;
+	margin: 3%;
+	margin-right: 0px;
+	background-color: #f9f9f9;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	margin-bottom: 20%;
+	min-height: 661px;
+}
+
+.wrapper{
+	z-index: 500;
+	position: relative;
+	top: -565px;
+	width: 800px;
+	height: 600px;
+	background-color: white;
+	margin-top: 217px;
+	border-bottom-right-radius: 25px;
+	opacity: 0.9;
+
+}
+
+.aiNews{
+	width: 407px;
+	height: 151px;
+	
+	float: left;
+	background-image: url("news.png");
+	background-repeat: no-repeat;
+
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+.newsContent{
+	z-index: 100;
+	position: relative;
+	top: 16px;
+	left: 14px;
+}
+.newsContent a{
+	color: red;
+	font-size: 12px;
+	text-align: right;
+	margin-left: 267px;
+}
+.userLogout{
+	z-index: 100;
+	position: relative;
+	top: 189px;
+	left: 497px;
+
+
+}
+.header{
+	width: 100%;
+	/*background-color: blue;*/
+	padding-top: 47px;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+}
+.logo{
+	width: 194px;
+	height: 150px;
+	margin-left: 20px;
+	float: left;
+	background-image: url("ai_logo_large.png");
+	background-repeat: no-repeat;
+}
+.loginLogo{
+	width: 315px;
+	height: 140px;
+	margin-left: 71px;
+	padding-top: 34px;
+}
+	
+
+.pic{
+	
+background-image: url("bgtwo.jpg");
+position: relative;
+top: 174px;;
+left: 0px;
+width: 100%;
+height: 500px;
+	
+}
+
+.ai{
+	z-index: 100;
+	position: relative;
+	top: -69px;
+	left: 277px;
+	font-size: x-large;
+}
+.studentPhoto{
+	width: 200px;
+	height: 180px;
+	background-color: blue;
+	float: right;
+	margin-right: 20px;
+	box-shadow: 5px 5px 2px #888888;
+
+}
+h4{
+	font-size: 20px;
+	color: red;
+}
+.classes{
+	width: 50%;
+	padding-top: 192px;
+}
+.class{
+  width: 50%;
+  height: 100%;
+  float: left;
+  line-height: 150%;
+  padding-left: 20px;
+  margin-top: 37px;
+}
+#accordion{
+	width:101%;
+	float: left;
+	margin-left: 20px;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	background: #F20808;
+	border: 0px ;
+}
+
+#datepicker{
+	float: right;
+}
+.ui-datepicker{
+	width: 27em;
+	height: 23em;
+	margin-right: 10px;
+}
+.ui-datepicker table{
+	width: 97%;
+	font-size: 1.9em;
+}
+.ui-accordion .ui-accordion-content{
+	height: 179px;
+}
+footer{
+	width: 100%;
+	background-color: blue;
+	margin-top: 436px;
+	z-index: 500;
+	position: relative;
+	top: 38px;
+
+}
+.footerc{
+	width: 100%;
+	background-color: blue;
+	margin-top: 436px;
+	z-index: 500;
+	position: relative;
+	top: 180px;
+
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight{
+	color: white;
+	background: #E0E0E0;
+	border-color: #FC0000;
+  }
+
+.agenda{
+	width: 200px;
+	height: 100px;
+	margin-right: 30px;
+	background-color: blue;
+	float: left;
+	background-image: url("agenda.png");
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+	margin-top: -38px;
+	
+}
+.verText{
+	z-index: 600;
+	position: relative;
+	top: -17px;
+	left: -84px;
+	
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+.verText a{
+	color: white;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.selfService{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 30px;
+	background-color: blue;
+	margin-top: -38px;
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+	background-image: url("selfSer.png");
+}
+.aiCampus{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 30px;
+	background-color: blue;
+	margin-top: -38px;
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+	background-image: url("mega.png");
+}
+.finance{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 30px;
+	background-color: blue;
+	margin-top: -38px;
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+	background-image: url("dollar.png");
+}
+
+.agendac{
+	width: 200px;
+	height: 100px;
+	margin-right: 30px;
+	background-color: blue;
+	float: left;
+	background-image: url("agenda.png");
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+	margin-top: -38px;
+	
+}
+
+.selfServicec{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 30px;
+	background-color: blue;
+	margin-top: -38px;
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+	background-image: url("selfSer.png");
+}
+.aiCampusc{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 30px;
+	background-color: blue;
+	margin-top: -38px;
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+	background-image: url("mega.png");
+}
+.financec{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 30px;
+	background-color: blue;
+	margin-top: -38px;
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+	background-image: url("dollar.png");
+
+	z-index: 100;
+  	position: relative;
+  	left: 689px;
+  	top: -62px;
+}
+
+.studentId{
+	position: relative;
+	z-index: 800;
+	top: 22px;
+	left: 756px;
+}
+form{
+	
+	margin-left: 348px;
+	margin-top: 88px;
+	font-family: 'Playfair Display', serif;
+	background-color: white;
+}
+form a{
+	color: white;
+}
+input    {
+width:375px;
+display:block;
+border: 1px solid #960000;
+height: 42px;
+font-size: 19px;
+color: #960000;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.date{
+	margin-top: 29px;
+}
+
+.backToClasses{
+	float: right; 
+	background-color: red; 
+	color:white; 
+	padding: 2px 10px;
+}
